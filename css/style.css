@@ -1,0 +1,125 @@
+/*
+font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Righteous', cursive;
+*/
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: lowercase;
+  line-height: 1.5;
+  font-family: 'Righteous', cursive;
+  color: #333333;
+}
+
+header {
+  background: lightblue;
+  float: left;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+header h2 {
+  font-size: 30px;
+}
+
+nav {
+  float: right;
+}
+
+main {
+  clear:both;
+}
+
+section {
+  background: grey;
+}
+
+h1 {
+  color: black;
+}
+
+h1, h2 {
+  font-family: fantasy;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+a {
+  color: darkslategrey;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header, nav, main {
+  padding: 20px 30px;
+}
+
+.profile-img {
+  float: left;
+  margin-right: 60px;
+}
+
+blockquote {
+  clear: both;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+blockquote p {
+  font-size: 24px;
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+nav a {
+  padding: 10px 20px;
+}
+
+.home {
+  background-image: url('../images/background-5.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+/* FOOTER STYLES
+-----------------------------------------*/
+/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px; /* must be the same height as footer */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer,
+.page-wrap:after {
+  height: 55px; /* however tall you want the footer to be */
+}
+
+footer {
+  background: white;
+  text-align: center;
+  padding: 1px;
+  opacity: 0.6;
+}
+
+.about {
+  background-image: url('../images/background-7.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.contact {
+  background-image: url('../images/background-4.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
